@@ -1,0 +1,46 @@
+.filterButton {
+    padding: 8px 15px;
+    margin-right: 10px;
+    font-weight: 100;
+    font-size: 16px;
+    border: 1px solid #DFE7EF;
+    border-radius: 6px;
+    user-select: none;
+    position: relative;
+    z-index: 0;
+}
+
+.filterDetail {
+    position: absolute;
+    left: 0;
+    top: 48px;
+    border: 1px solid #DFE7EF;
+    border-radius: 6px;
+    padding: 20px;
+    font-size: 16px;
+    color: #424E54;
+}
+
+.filterDetailButtonContainer {
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato';
+    font-size: 16px;
+}
+
+.buttonClear {
+    cursor: pointer;
+    color: #76787e;
+}
+
+.buttonApply {
+    cursor: pointer;
+    color: #0970b1;
+}
